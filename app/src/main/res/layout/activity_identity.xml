@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_weight="1"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".IdentityActivity">
 
     <TextView
         android:id="@+id/textView42"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Identity"
         android:textSize="24sp" />
@@ -46,19 +49,23 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/identity_back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
             android:layout_weight="1"
+            android:backgroundTint="#888080"
             android:text="Back" />
 
         <Button
             android:id="@+id/identity_next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
             android:layout_weight="1"
             android:text="Next" />
     </LinearLayout>
