@@ -48,10 +48,10 @@ public class SuccessActivity extends AppCompatActivity {
 
         TextView emailTxt = findViewById(R.id.email_txt);
         emailTxt.setText(emailAddress);
-        TextView passwordTxt = findViewById(R.id.password_txt);
-        passwordTxt.setText(password);
-        TextView confirmPasswordTxt = findViewById(R.id.confirm_password_txt);
-        confirmPasswordTxt.setText(confirmPassword);
+        //TextView passwordTxt = findViewById(R.id.password_txt);
+        //passwordTxt.setText(password);
+        //TextView confirmPasswordTxt = findViewById(R.id.confirm_password_txt);
+        //confirmPasswordTxt.setText(confirmPassword);
         TextView successUserNameTxt = findViewById(R.id.success_user_name_txt);
         successUserNameTxt.setText(userName);
         TextView successFirstNameTxt = findViewById(R.id.success_first_name_txt);

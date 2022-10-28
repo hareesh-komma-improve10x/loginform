@@ -15,6 +15,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Bank Account"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -22,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bank Name"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/bank_name_txt"
@@ -35,7 +37,9 @@
         android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Account Holder Name" />
+        android:text="Account Holder Name"
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/account_holder_name_txt"
@@ -48,7 +52,9 @@
         android:id="@+id/textView24"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Account Number" />
+        android:text="Account Number"
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/account_number_txt"
@@ -61,7 +67,9 @@
         android:id="@+id/textView26"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="IFSC code" />
+        android:text="IFSC Code"
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/ifsc_code_txt"
@@ -73,26 +81,27 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/bank_back_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:backgroundTint="#888080"
-            android:text="Back" />
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/bank_next_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="40dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 </LinearLayout>

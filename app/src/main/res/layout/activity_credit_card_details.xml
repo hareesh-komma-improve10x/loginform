@@ -15,6 +15,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Credit Card Details"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -22,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Card Number"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/card_number_txt"
@@ -36,7 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Card Holder"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/card_holder_txt"
@@ -55,8 +58,9 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Expire"
-            android:textSize="16sp" />
+            android:text="Expiry"
+            android:textColor="#302A2A"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView55"
@@ -64,7 +68,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="CVV"
-            android:textSize="16sp" />
+            android:textColor="#302A2A"
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -102,7 +107,8 @@
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:backgroundTint="#888080"
-            android:text="Back" />
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/credit_card_next_btn"
@@ -110,6 +116,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>

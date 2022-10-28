@@ -15,6 +15,7 @@
         android:layout_marginBottom="16dp"
         android:gravity="center"
         android:text="Birth Details"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -22,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Date Of Birth"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/date_of_birth_txt"
@@ -36,7 +38,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Place Of Birth"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/place_of_birth_txt"
@@ -58,7 +61,8 @@
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:backgroundTint="#888080"
-            android:text="Back" />
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/birth_next_btn"
@@ -66,6 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>

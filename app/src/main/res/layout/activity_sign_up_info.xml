@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
     android:gravity="right"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".SignUpINFO">
 
     <TextView
@@ -15,8 +15,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Signup INFO"
+        android:text="Signup Info"
         android:textAllCaps="false"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -24,7 +25,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Email Address"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/email_address_txt"
@@ -38,7 +40,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/password_txt"
@@ -52,7 +55,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Confirm Password"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/conform_password_txt"
@@ -66,5 +70,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Next" />
+        android:text="Next"
+        android:textAllCaps="false" />
 </LinearLayout>

@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".PersonalInfoActivity">
 
     <TextView
@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Personal INFO"
+        android:text="Personal Info"
         android:textAllCaps="false"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -23,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="User Name"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/user_name_txt"
@@ -37,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="First Name"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/first_name_txt"
@@ -51,7 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Last Name"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/last_name_txt"
@@ -73,7 +77,8 @@
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:backgroundTint="#888080"
-            android:text="Back" />
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/next_2_btn"
@@ -81,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>

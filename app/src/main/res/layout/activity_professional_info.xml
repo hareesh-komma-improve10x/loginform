@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context=".ProfessionalInfoActivity">
 
     <TextView
@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:gravity="center"
-        android:text="Professional INFO"
+        android:text="Professional Info"
         android:textAllCaps="false"
+        android:textColor="#121010"
         android:textSize="24sp" />
 
     <TextView
@@ -23,7 +24,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Current Company"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/company_name_txt"
@@ -37,7 +39,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Total Experience"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/total_experience_txt"
@@ -51,7 +54,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Designation"
-        android:textSize="16sp" />
+        android:textColor="#302A2A"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/designation_txt"
@@ -73,7 +77,8 @@
             android:layout_marginRight="40dp"
             android:layout_weight="1"
             android:backgroundTint="#888080"
-            android:text="Back" />
+            android:text="Back"
+            android:textAllCaps="false" />
 
         <Button
             android:id="@+id/next_3_btn"
@@ -81,6 +86,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_weight="1"
-            android:text="Next" />
+            android:text="Next"
+            android:textAllCaps="false" />
     </LinearLayout>
 </LinearLayout>
